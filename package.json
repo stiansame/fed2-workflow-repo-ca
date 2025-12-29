@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
-    "prepare": "husky install"
+    "dev": "vite && npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "prepare": "husky install",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +15,11 @@
     "@eslint/js": "^9.39.2",
     "eslint": "^9.39.2",
     "globals": "^16.5.0",
+    "jsdom": "^27.4.0",
     "prettier": "^3.7.4",
-    "tailwindcss": "^3.4.12"
+    "tailwindcss": "^3.4.12",
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
   },
   "lint-staged": {
     "*.html": [
