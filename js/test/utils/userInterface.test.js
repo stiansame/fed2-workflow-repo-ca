@@ -1,7 +1,31 @@
-import { describe, it, expect } from "vitest";
+import {
+  describe,
+  it,
+  expect,
+  beforeAll,
+  beforeEach,
+  afterAll,
+  afterEach,
+} from "vitest";
 import { isActivePath } from "../../utils/userInterface.js";
 
 describe("isActivePath", () => {
+  beforeEach(() => {
+    console.log("Setting up test...");
+  });
+
+  afterEach(() => {
+    console.log("Cleaning up test...");
+  });
+
+  beforeAll(() => {
+    console.log("Setting up all tests...");
+  });
+
+  afterAll(() => {
+    console.log("Cleaning up all tests...");
+  });
+
   it("returns true when current path matches href exactly", () => {
     // Arrange
     const href = "/login";
