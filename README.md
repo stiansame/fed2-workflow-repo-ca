@@ -46,7 +46,7 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 
 ## Commands & Useage
 
-## 🎨Tailwind CSS
+### 🎨Tailwind CSS
 
 - Tailwind is configured via `tailwind.config.js`.
 - To build yoyr css, run:
@@ -54,7 +54,7 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
   npm run dev
   ```
 
-## 🔍ESLint
+### 🔍ESLint
 
 - To lint your code, you can run:
   ```
@@ -62,7 +62,7 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
   ```
 - ESLint will check your JS files for issues and suggest fixes
 
-## ✨Prettier
+### ✨Prettier
 
 - To format your code, run:
   ```
@@ -72,5 +72,9 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 - You can configure prettier in the prettier config.file `prettierrc`
 - See [https://prettier.io/docs/configuration](https://prettier.io/docs/configuration) for instructions and usage
 
+### 🧩Husky
 
-  
+- Husky is used for Git hooks (e.g., pre-commit).
+- Hooks are configured in the `.husky` directory.
+- Husky will automatically run checks (like linting or formatting) before commits.
+
