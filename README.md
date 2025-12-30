@@ -107,7 +107,7 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
   ```
 - Test files are located in `js/test/playwright`. Make sure to follow playwright conventions when writing your own tests (eg `*.test.js` or `*.spec.js`)
 - Playwright uses **Enviroment variables** for tests: Add an `.env`file in your project containing:
-  ```
+ ```
 E2E_BASE_URL=http://localhost:5173
 E2E_USER_EMAIL=your-test-email@example.com
 E2E_USER_PASSWORD=your-test-password
