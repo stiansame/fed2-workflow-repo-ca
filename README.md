@@ -16,11 +16,13 @@
 
 ## Installation
 
-###✅Prerequisites
+###Prerequisites
 Ensure you have the following installed:
 - **Node.js**
 - **npm, pnpm or yarn**
 
 Verify installation:
-```node -v
-npm -v```
+```
+node -v
+npm -v
+```
