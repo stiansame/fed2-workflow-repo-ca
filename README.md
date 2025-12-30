@@ -35,11 +35,14 @@ npm -v
 git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 ```
 
-**Download ZIP**
+**Or Download ZIP**
 1. Open the repo on GitHub
 2. Click Code → Download ZIP
 3. Extract and open the folder in your editor
 
-**Fork**
+**or Fork**
 1. Click Fork in the GitHub UI
 2. Clone your fork locally
+
+## Commands & Useage
+
