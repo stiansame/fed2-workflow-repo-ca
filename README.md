@@ -14,3 +14,13 @@
 
 <sub>Live-server is not needed, but included for ease of use when running playwright</sub>
 
+## Installation
+
+###✅ Prerequisites
+Ensure you have the following installed:
+- **Node.js**
+- ** npm, pnpm or yarn**
+
+Verify installation:
+''' node -v
+npm -v '''
