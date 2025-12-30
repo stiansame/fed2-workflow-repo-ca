@@ -78,3 +78,19 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 - Hooks are configured in the `.husky` directory.
 - Husky will automatically run checks (like linting or formatting) before commits.
 
+### 🧪VITE + VITEST
+
+- To run VITE, use:
+  ```
+  npm run vite
+  ```
+- to runtests using Vitest, use:
+  ```
+  npm run vitest
+   ```
+- Add all your own tests using Vitest conventions (eg. `*test.js`)
+
+
+### 🧭Playwright
+
+### 🌐 Live-server (Static server)
