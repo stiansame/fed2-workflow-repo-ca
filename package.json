@@ -8,7 +8,7 @@
     "vite": "vite",
     "prepare": "husky install",
     "vitest": "vitest",
-    "playwright": "npx playwright test  --ui",
+    "playwright": "npx playwright test",
     "start": "live-server --port=5500"
   },
   "keywords": [],
