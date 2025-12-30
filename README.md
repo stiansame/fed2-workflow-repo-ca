@@ -22,5 +22,5 @@ Ensure you have the following installed:
 - **npm, pnpm or yarn**
 
 Verify installation:
-``` node -v
-npm -v ```
+```node -v
+npm -v```
