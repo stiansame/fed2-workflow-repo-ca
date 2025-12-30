@@ -46,3 +46,31 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 
 ## Commands & Useage
 
+## 🎨Tailwind CSS
+
+- Tailwind is configured via `tailwind.config.js`.
+- To build yoyr css, run:
+  ```
+  npm run dev
+  ```
+
+## 🔍ESLint
+
+- To lint your code, you can run:
+  ```
+  npx eslint .
+  ```
+- ESLint will check your JS files for issues and suggest fixes
+
+## ✨Prettier
+
+- To format your code, run:
+  ```
+  npx prettier --write .
+  ```
+- Prettier will format your feiles automatically for a consitent style
+- You can configure prettier in the prettier config.file `prettierrc`
+- See [https://prettier.io/docs/configuration](https://prettier.io/docs/configuration) for instructions and usage
+
+
+  
