@@ -84,7 +84,7 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
   ```
   npm run vite
   ```
-- to runtests using Vitest, use:
+- to run tests using Vitest, use:
   ```
   npm run vitest
    ```
@@ -93,4 +93,32 @@ git clone https://github.com/stiansame/fed2-workflow-repo-ca.git
 
 ### 🧭Playwright
 
+- Playwright is used for E2E browser testing.
+- To run Playwright tests, use:
+  ```
+  npm run playwright
+  ```
+- This will run playwright in headless mode
+- You can also use one of the following commands:
+  ```
+  npx playwright test --UI //Runs playwright with UI
+  npx playwright test --headed //Shows actual browsers while tests are running
+  npx playwright test --debug //Runs tests step by step for debugging
+  ```
+- Test files are located in `js/test/playwright`. Make sure to follow playwright conventions when writing your own tests (eg `*.test.js` or `*.spec.js`)
+- Playwright uses **Enviroment variables** for tests: Add an `.env`file in your project containing:
+  ```
+E2E_BASE_URL=http://localhost:5173
+E2E_USER_EMAIL=your-test-email@example.com
+E2E_USER_PASSWORD=your-test-password
+```
+- See [Playwright documentation](https://playwright.dev/docs/intro) for full documentation
+
 ### 🌐 Live-server (Static server)
+
+- To use with playwright if you don't want to use VITE
+- Remember to configure `playwright.config.js` if you want to use
+- to run, use:
+```
+npm run start
+```
